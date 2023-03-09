@@ -1,0 +1,146 @@
+h2 {
+    text-align: center;
+}
+
+.wrapper {
+    height: 300px;
+    overflow: scroll;
+    position: relative;
+    background: white;
+}
+
+table {
+    width: 100%;
+    border: 0px;
+    border-spacing: 0px;
+    position: relative;
+    background: white;
+}
+
+table thead {
+    border: 0px;
+    border-spacing: 0px;
+    text-align: left;
+}
+
+table thead tr {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: white;
+}
+
+table thead tr th {
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: rgb(38, 38, 38);
+    background: whitesmoke;
+    padding: 0px 10px 0px 25px;
+    height: 56px;
+    box-sizing: border-box;
+    width: auto;
+    white-space: nowrap;
+    text-align: start;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+table thead tr th:first-child {
+    left: 0px;
+    z-index: 2;
+}
+
+table thead tr th:last-child {
+    right: 0;
+    z-index: 2;
+}
+
+table tbody {
+    box-sizing: border-box;
+}
+
+table tbody tr {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: white;
+}
+
+table tbody tr td {
+    border-width: 0px 0px 1px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--color);
+    background: white;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 25px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(245, 245, 245);
+    height: 56px;
+    left: 0px;
+}
+
+table tbody tr td button:first-child {
+    background-color: orange;
+}
+
+table tbody tr td:first-child {
+    position: sticky;
+    left: 0px;
+}
+
+table tbody tr td:last-child {
+    position: sticky;
+    right: 0px;
+    /* width: 300px; */
+}
+
+table tbody tr td input {
+    outline: none;
+    padding: 3px 10px;
+    border: 1px solid #a6a6a6;
+}
+
+table tbody tr td input[readonly] {
+    border: 1px solid transparent;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #a6a6a6;
+    border-radius: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 8px;
+}
+
+button {
+    margin: 5px;
+    border: none;
+    background-color: red;
+    border-radius: 2px;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}

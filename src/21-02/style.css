@@ -1,0 +1,12 @@
+
+h2 {
+    margin: 10px;
+}
+
+input {
+    margin: 10px;
+    padding: 10px 30px;
+    border: 1px solid #f6f6f6;
+    outline: none;
+    background-color: #f6f6f6;
+}
