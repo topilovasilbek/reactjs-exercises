@@ -9,7 +9,7 @@ function Navbar(props) {
       <NavbarDiv>
         {navbar.map((item) =>
           !item.isPrivate ? (
-            <NavbarLink to={item.path}>{item.title}</NavbarLink>
+            <NavbarLink to={item.path} key={item.id}>{item.title}</NavbarLink>
           ) : null
         )}
       </NavbarDiv>

@@ -1,0 +1,148 @@
+const products = [
+  {
+    id: 1,
+    category_id: 0,
+    state: "new",
+    name: "Barberton Daisy",
+  },
+  {
+    id: 2,
+    category_id: 2,
+    state: "sale",
+    name: "Angel Wing Begonia",
+  },
+  {
+    id: 3,
+    category_id: 4,
+    state: "sale",
+    name: "African Violet",
+  },
+  {
+    id: 4,
+    category_id: 1,
+    state: "new",
+    name: "Beach Spider Lily",
+  },
+  {
+    id: 5,
+    category_id: 6,
+    state: "new",
+    name: "Barberton Daisy",
+  },
+  {
+    id: 6,
+    category_id: 3,
+    state: "sale",
+    name: "Angel Wing Begonia",
+  },
+  {
+    id: 7,
+    category_id: 9,
+    state: "sale",
+    name: "African Violet",
+  },
+  {
+    id: 8,
+    category_id: 7,
+    state: "new",
+    name: "Beach Spider Lily",
+  },
+  {
+    id: 9,
+    category_id: 3,
+    state: "new",
+    name: "Barberton Daisy",
+  },
+  {
+    id: 10,
+    category_id: 7,
+    state: "sale",
+    name: "Angel Wing Begonia",
+  },
+  {
+    id: 11,
+    category_id: 8,
+    state: "sale",
+    name: "African Violet",
+  },
+  {
+    id: 12,
+    category_id: 9,
+    state: "new",
+    name: "Beach Spider Lily",
+  },
+  {
+    id: 13,
+    category_id: 0,
+    state: "new",
+    name: "Barberton Daisy",
+  },
+  {
+    id: 14,
+    category_id: 2,
+    state: "sale",
+    name: "Angel Wing Begonia",
+  },
+  {
+    id: 15,
+    category_id: 4,
+    state: "sale",
+    name: "African Violet",
+  },
+  {
+    id: 16,
+    category_id: 1,
+    state: "new",
+    name: "Beach Spider Lily",
+  },
+  {
+    id: 17,
+    category_id: 6,
+    state: "new",
+    name: "Barberton Daisy",
+  },
+  {
+    id: 18,
+    category_id: 3,
+    state: "sale",
+    name: "Angel Wing Begonia",
+  },
+  {
+    id: 19,
+    category_id: 9,
+    state: "sale",
+    name: "African Violet",
+  },
+  {
+    id: 20,
+    category_id: 7,
+    state: "new",
+    name: "Beach Spider Lily",
+  },
+  {
+    id: 21,
+    category_id: 3,
+    state: "new",
+    name: "Barberton Daisy",
+  },
+  {
+    id: 22,
+    category_id: 7,
+    state: "sale",
+    name: "Angel Wing Begonia",
+  },
+  {
+    id: 23,
+    category_id: 8,
+    state: "sale",
+    name: "African Violet",
+  },
+  {
+    id: 24,
+    category_id: 9,
+    state: "new",
+    name: "Beach Spider Lily",
+  },
+];
+
+export default products;
